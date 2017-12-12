@@ -37,55 +37,7 @@ The resume has four distinct sections: work, education, projects and a header wi
 
 1. Build four JavaScript objects, each one representing a different resume section. The objects that you create (including property names and the data types of their values) need to follow the schema below exactly. All properties should be included and contain a value of the type specified unless the property is marked 'optional'. Property values may contain real or fake data. Property names are case-sensitive. Make sure your javaScript objects are formatted correctly using [jshint.com](http://jshint.com/).
 
-  * `bio` contains:
-        
-            name : string
-            role : string
-            contacts : an object with
-                  mobile: string
-                  email: string 
-                  github: string
-                  twitter: string (optional)
-                  location: string
-            welcomeMessage: string 
-            skills: array of strings
-            biopic: string url
-            display: function taking no parameters
-
-  * `education` contains:
-      
-            schools: array of objects with
-                 name: string
-                 location: string
-                 degree: string
-                 majors: array of strings
-                 dates: string (works with a hyphen between them)
-                 url: string (optional)
-            onlineCourses: array of objects with
-                 title: string
-                 school: string
-                 dates: string (works with a hyphen between them)
-                 url: string
-            display: function taking no parameters
-
-  * `work` contains
-          
-            jobs: array of objects with
-                 employer: string 
-                 title: string 
-                 location: string 
-                 dates: string (Can be 'in progress')
-                 description: string 
-            display: function taking no parameters
-
-  * `projects` contains:
-
-            projects: array of objects with
-                  title: string 
-                  dates: string (works with a hyphen between them)
-                  description: string
-                  images: array with string urls
-            display: function taking no parameters
+ 
 
 2. Iterate through each javaScript object and append its information to index.html in the correct section.
   * First off, you’ll be using jQuery’s `selector.append()` and `selector.prepend()` functions to modify index.html. `selector.append()` makes an element appear at the end of a selected section. `selector.prepend()` makes an element appear at the beginning of a selected section.
