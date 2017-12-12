@@ -13,11 +13,9 @@ Review the Online Resume [Project Rubric](https://review.udacity.com/?_ga=1.1892
 8. Check your work against the [Project Rubric](https://review.udacity.com/?_ga=1.189245867.12280332.1465333852#!/projects/2962818615/rubric).
 9. When you are satisfied with your project, submit it according to the Submission Instructions below.
 
-### By the end:
-Your resume will look something like this
-![](http://i.imgur.com/pWU1Xbl.png)
 
-And your repository will include the following files:
+
+The repository include the following files:
 
 * **index.html**: The main HTML document. Contains links to all of the CSS and JS resources needed to render the resume, including resumeBuilder.js.
 * **js/helper.js**: Contains helper code needed to format the resume and build the map. It also has a few function shells for additional functionality. More on helper.js further down.
