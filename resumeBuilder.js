@@ -6,7 +6,7 @@ var bio = {
 		"email": "abeer.alyaagoub@gmail.com",
 		"github": "https://github.com/AbeerAlyaagoub",
 		"twitter": "https://twitter.com",
-		"linkedin": "https://www.linkedin.com",
+		"linkedin": "https://www.linkedin.com/in/abeer-alyaagoub-2b553b148/",
 		"location": "Riyadh, Saudi Arabia"
 	},
 	"welcomeMessage": "Welcome to my personal webpage",
@@ -17,10 +17,10 @@ var bio = {
 		"Bootstrap",
 		"Java",
 		"Web Design",
-		"Graphic Design",
+		"Adobe XD",
 		"UX & UI",
-		"SQL Database",
-		"illustrator"
+		"User Research",
+		"usability Testing"
 	],
 	"biopic": "images/lady.png", 
 };
@@ -74,21 +74,21 @@ var work = {
 			"title" : "Web Designer & Web Developer",
 			"location": "Riyadh, Saudi Arabia",
 			"dates" : "July 2016 - September 2016",
-			"description" : "I was who designed the website for YU-ACM, one of the students clubs in Al Yamamah University"
+			"description" : "I designed and developed one of the students' clubs at Al-Yamamah University"
 		},
 		{
-			"employer" : "Freelance",
+			"employer" : "Volunteer",
 			"title" : "Coach",
 			"location": "Jeddah, Saudi Arabia",
 			"dates" : "March 2016 - May 2016",
-			"description" : "I was a voluneer coach, teaching grade 3 students the basics of coding"
+			"description" : "I have volunteered in leading a coding initiative at Educational Age International Schools; which aims to teach kids the fundamentals of programming through fun and creative activities "
 		},
 		{
 			"employer" : "Freelance",
 			"title" : "Graphic Designer",
 			"location": "Khobar,Saudi Arabia",
 			"dates" : "July 2017 - Present",
-			"description" : "I designed the second issue of Pulsar newsletter, a newsletter for one of the Toastmasters clubs"
+			"description" : "I designed the second issue of Pulsar newsletter; a newsletter for one of the Toastmasters clubs"
 		}
 	]
 };
@@ -182,13 +182,13 @@ var education = {
 			"url" : "https://teamtreehouse.coms"
 		},
 		{
-			"title" : "Software Architecture and Design",
+			"title" : "Front-End Web Development Nanodegree",
 			"school" : "Udacity",
 			"dates" : "2017",
 			"url" : "https://www.udacity.com"
 		},
 		{
-			"title" : "Front-End Web Development Nanodegree",
+			"title" : "UX Design for Mobile Development",
 			"school" : "Udacity",
 			"dates" : "2017",
 			"url" : "https://www.udacity.com"
